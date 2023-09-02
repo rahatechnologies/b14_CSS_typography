@@ -1,0 +1,15 @@
+/* font-family - describes the font of the element
+
+font-size - size of the fonts
+
+*/
+
+body{
+    /* font-family: Helvetica; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1{
+    font-family: Verdana;
+    font-size: 2rem;
+}
