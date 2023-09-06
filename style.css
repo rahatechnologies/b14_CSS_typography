@@ -1,8 +1,14 @@
 /* font-family - describes the font of the element
 
 font-size - size of the fonts
+font-weight - weight means how thickness or thin characters in the text should be
 
+font-style - sets font style for a text
+
+text-align  text indent
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;900&display=swap');
 
 body{
     /* font-family: Helvetica; */
@@ -12,4 +18,37 @@ body{
 h1{
     font-family: Verdana;
     font-size: 2rem;
+    
+  font-style: italic;
+}
+
+#heading2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+#heading3{
+/* font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto';
+font-weight: 900;
+font-style: normal;
+}
+
+
+p{
+  /* font-style: italic; */
+  font-style: normal;
+  font-weight: bolder;
+  /* text-align: right; */
+  /* text-align: center; */
+  /* text-align: justify; */
+  text-align: left;
+}
+
+span{
+    padding-left:5rem ;
+}
+
+#lastpara{
+    text-indent: 10rem;
 }
